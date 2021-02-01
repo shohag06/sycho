@@ -1,5 +1,5 @@
 /* 
-Template Name:PSD To HTML Template
+Template Name: Sycho PSD To HTML Template
 Author: Shah M Shariful I Shohag
 Version: 1.0
 */
@@ -45,7 +45,7 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 15px;
-	line-height: 1.7em;
+
 	color: #333;
 }
 h1,
@@ -97,6 +97,9 @@ a {
 }
 a:hover {
 	color: #FF7200
+}
+li{
+	list-style: none;
 }
 .pt-100 {
 	padding-top: 100px;
@@ -158,10 +161,21 @@ h2{
     position: absolute;
     left: 0;
     right: 0;
-    top: 0;
+	top: 0;
+	padding: 0 105px;
 }
+.main-menue ul li a {
+    color: #fff;
+	text-transform: uppercase;
+	padding:34px 0;
+	display: block;
+}
+.main-menue ul li {
 
-
+	display: inline-block;
+    margin-right: 31px;
+	
+}
 
 
 
