@@ -164,22 +164,77 @@ h2{
 	top: 0;
 	padding: 0 105px;
 }
+.main-menue ul li {
+
+	display: inline-block;
+	margin-right: 32px;
+	position: relative;
+	
+}
+.main-menue nav ul li::before{
+	content: "";
+	position: absolute;
+	background: #f8a683;
+	width: 2px;
+	height: 0px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	transition: 0.3s;
+}
+.main-menue nav ul li:hover::before{
+	height: 30px;
+}
+
 .main-menue ul li a {
     color: #fff;
 	text-transform: uppercase;
 	padding:34px 0;
 	display: block;
 }
-.main-menue ul li {
+.main-menue ul li a:hover{
+	color: #f8a683;
+}
+.main-menue ul li .submenue {
+    position: absolute;
+     min-width: 210px;
+	background: #fff;
+	transition: .3s;
+    top: 110%;
+	left: 0;
+	padding: 14px 0;
+	opacity: 0;
+	visibility: hidden;
+	border-top: 3px solid #f8a683;
+}
+.main-menue ul li .submenue li::before{
+	display:none;
+}
+.main-menue ul li .submenue li .submenue{
+	left: 100%;
+	top: 0;
+}
+.main-menue ul li:hover> .submenue {
+   
+    top: 100%;
+	opacity: 1;
+	visibility: visible;
+}
+.main-menue ul li .submenue  li{
+	display: block;
+	margin: 0;
 
-	display: inline-block;
-    margin-right: 31px;
-	
 }
 
-
-
-
+.main-menue ul li .submenue  li a{
+	color: #333;
+	padding: 10px;
+	
+}
+.main-menue ul li .submenue  li:hover> a{
+	color: #f8a683;
+}
 
 
 
