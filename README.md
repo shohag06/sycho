@@ -1,3 +1,1 @@
-===============
-SYCHO PSD TO HTML PROJECT!
-===============
+Sycho psd to html clone project
