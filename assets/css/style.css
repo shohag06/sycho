@@ -252,13 +252,18 @@ a.s-btn {
 }
 /* Slider Css*/
 .single-slider {
-    min-height: 1030px;
+    min-height: 770px;
+}
+.slider-content {
+    padding-left: 120px;
 }
 .slider-content span {
 	color: #eea676;
 	font-weight: 500;
 	font-size: 14px;
 	font-family: 'Rubik', sans-serif;
+	display: block;
+	margin-bottom: 30px;
   }
   .slider-content h2 {
 	color: #fff;
@@ -286,4 +291,4 @@ a.s-btn {
  
  }
    
-   
+ 
