@@ -55,12 +55,13 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	font-weight:400;
+	font-weight:700;
 	padding:0;
 	font-family: 'Cormorant Garamond', serif;
 	color: #005046;
 	text-transform: normal;
 	font-style: normal;
+	font-size: 30px;
 }
 h1 a,
 h2 a,
@@ -291,4 +292,6 @@ a.s-btn {
  
  }
    
- 
+ .fetured-icone{
+	 margin-right: 35px;
+ }
